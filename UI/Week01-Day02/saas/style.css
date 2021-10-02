@@ -1,0 +1,35 @@
+html, body, h1, h2, h3, h4, h5, h6, ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.padding-top-reset {
+  padding-top: 0px;
+}
+
+.padding-top-x {
+  padding-top: 5px;
+}
+
+.padding-top-2x {
+  padding-top: 10px;
+}
+
+.padding-top-3x {
+  padding-top: 15px;
+}
+
+.padding-top-4x {
+  padding-top: 20px;
+}
+
+.padding-top-5x {
+  padding-top: 25px;
+}
+
+.btn {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #fd6a4f;
+}
+/*# sourceMappingURL=style.css.map */
