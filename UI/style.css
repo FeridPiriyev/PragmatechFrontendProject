@@ -1,0 +1,14 @@
+#button .menu-btn button{
+    background-color: red;
+    
+}
+
+#button .menu-btn button h1{
+    color:white;
+    font-size:15px;
+}
+
+#button .menu-btn button:hover{
+    background-color:black;
+    transition:1s;
+}
