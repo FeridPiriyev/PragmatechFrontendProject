@@ -11,7 +11,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!--CSS-->
     <link rel="stylesheet" href="saas/style.css">
-
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
     <section id="header">
@@ -61,30 +62,36 @@
                     </div>
 
                     <div class="menu__center">
-                        <div class="custom-select" style="width:200px;">
-                            <select>
-                              <option value="0">All Departments</option>
-                              <option value="1">Fashion</option>
-                              <option value="2">- Women</option>
-                              <option value="3">- Men</option>
-                              <option value="4">- Jewellery</option>
-                              <option value="5">- Kids Fashion</option>
-                              <option value="6">Electronics</option>
-                              <option value="7">- Smart Tvs</option>
-                              <option value="8">- Cameras</option>
-                              <option value="9">- Games</option>
-                              <option value="10">Home & Garden</option>
-                              <option value="11">Motors</option>
-                              <option value="12">- Cars and Trucks</option>
-                              <option value="13">- Boats</option>
-                              <option value="14">- Auto Tools & Supplies</option>
-                            </select>
-                        </div>
-                        <div class="search">
-                            <input type="text" placeholder="Search product..">
-                            <i class="fas fa-search"></i>
-                        </div>  
+                        <form action=""><div class="header__search">
+                            <div class="header__search__option">
+                    
+                                <div class="custom-select" style="width:200px;">
+                                    <select>
+                                      <option value="0">All Departments</option>
+                                      <option value="1">Fashion</option>
+                                      <option value="2">- Women</option>
+                                      <option value="3">- Men</option>
+                                      <option value="4">- Jewellery</option>
+                                      <option value="5">- Kids Fashion</option>
+                                      <option value="6">Electronics</option>
+                                      <option value="7">- Smart Tvs</option>
+                                      <option value="8">- Cameras</option>
+                                      <option value="9">- Games</option>
+                                      <option value="10">Home & Garden</option>
+                                      <option value="11">Motors</option>
+                                      <option value="12">- Cars and Trucks</option>
+                                      <option value="13">- Boats</option>
+                                      <option value="14">- Auto Tools & Supplies</option>
+                                    </select>
+                                </div>
+                                
+                            </div>
+                            <input class="header__search__text" placeholder="Search product...">
+                            <button class="button__search"><i class="fas fa-search"></i></button>
+                    
+                        </div></form>
                     </div>
+                        
 
                     <div class="menu__right">
                         <div class="menu__right__item">
@@ -115,7 +122,7 @@
                             <i class="fas fa-bars"></i>
                         </div>
                         <div class="menu__categories__all">
-                            <p>Browse Categories</p>
+                            Browse Categories
                         </div>
                     </div>
 
@@ -161,7 +168,15 @@
             </div>
         </div>
     </section>
-
+    <section id="deal">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="image/product-1 (1).jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
     <section id="slider">
         <div class="container">
             <div class="row">
@@ -176,6 +191,7 @@
                             </div>
                             <div class="slide">
                                 <img src="image/slide-2.jpg" alt="">
+                                
                             </div>
                             <div class="slide">
                                 <img src="image/slide-3.jpg" alt="">
@@ -196,9 +212,195 @@
             </div>
         </div>
     </section>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                <div class="campaign campaign--vertical">
+                    <img src="image/banner-1.jpg" alt="">
+                </div>        
+            </div>
+            <div class="col-9">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-5">
+                                <div class="campaign campaign--large">
+                                    <img src="image/banner-2.jpg" alt="">
+                                </div>
+                        </div>
+                        <div class="col-5">
+                                <div class="campaign campaign--large">
+                                    <img src="image/banner-3.png" alt="">
+                                </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-carousel">
+        <div class="cell"><img src="image/sp1.png" alt=""></div>
+        <div class="cell"><img src="image/sp2.png" alt=""></div>
+        <div class="cell"><img src="image/sp3.png" alt=""></div>
+        <div class="cell"><img src="image/sp4.png" alt=""></div>
+        <div class="cell"><img src="image/sp5.png" alt=""></div>
+        <div class="cell"><img src="image/sp6.png" alt=""></div>
+        <div class="cell"><img src="image/sp7.png" alt=""></div>    
+    </div>
+
+    <section id="product">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="product">
+                        <div class="main-carousel">
+                            <div class="cell"><img src="image/elec1.jpg" alt=""></div>
+                            <div class="cell"><img src="image/elec2.jpg" alt=""></div>
+                            <div class="cell"><img src="image/elec3.jpg" alt=""></div>
+                            <div class="cell"><img src="image/elec4.jpg" alt=""></div>
+                            <div class="cell"><img src="image/elec5.jpg" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="newsletter">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="newsletter__join--title">
+                        <h1>Join Our Newsletter</h1>
+                        <p>Subcribe to get information about products and coupons</p>
+                    </div>
+                    <div class="newsletter__join__now">
+                        <form action="">
+                            <input type="email" placeholder="Enter your Email Adress">
+                            <button>
+                                SUBSCRIBE
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <footer>
-        
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer">
+                        <div class="col">
+                            <img src="image/logo.png" alt="">
+                            <div class="hq">
+                                <p>Praesent dapibus, neque id cursus ucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</p>
+                            </div>
+                        </div>
+    
+                        <div class="col">
+                            <h1>Useful Links</h1>
+                            <ul>
+                                <li>
+                                    <a href="#">About Molla</a>
+                                </li>
+                                <li>
+                                    <a href="#">How to shop on Molla</a>
+                                </li>
+                                <li>
+                                    <a href="#">FAQ</a>
+                                </li>
+                                <li>
+                                    <a href="#">Contact Us</a>
+                                </li>
+                                <li>
+                                    <a href="#">Log in</a>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <div class="col">
+                            <h1>CONNECT</h1>
+                            <ul>
+                                <li>
+                                    <a href="#">Payment Methods</a>
+                                </li>
+                                <li>
+                                    <a href="#">Money-back guarantee!</a>
+                                </li>
+                                <li>
+                                    <a href="#">Returns</a>
+                                </li>
+                                <li>
+                                    <a href="#">Shipping</a>
+                                </li>
+                                <li>
+                                    <a href="#">Terms and conditions</a>
+                                </li>
+                                <li>
+                                    <a href="#">Privacy Policy</a>
+                                </li>
+                            </ul>
+                           
+                        </div>
+                            
+                        <div class="col">
+                            <h1>My Account</h1>
+                            <ul>
+                                <li>
+                                    <a href="#">Sign In</a>
+                                </li>
+                                <li>
+                                    <a href="#">View Cart</a>
+                                </li>
+                                <li>
+                                    <a href="#">My Wishlist</a>
+                                </li>
+                                <li>
+                                    <a href="#">Track My Order</a>
+                                </li>
+                                <li>
+                                    <a href="#">Help</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <div class="newsletter">
+                                <h1>Sign Up to Newsletter</h1>
+                                <p>Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan.</p>
+                                <form action="">
+                                    <input type="text">
+                                    <button>
+                                        <i class="fas fa-arrow-right"></i>
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
     </footer>
+    
+
     <script src="js/store.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script type="text/javascript">
+        $('.main-carousel').flickity({
+            // options
+            cellAlign: 'left',
+            wrapAround:true,
+            freeScroll: true
+        });
+    </script>
 </body>
 </html>
