@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&display=swap');
 @import "veriables";
 @import "buttons";
 
@@ -10,6 +11,8 @@
     font-size: $spacing-3;
     padding: $spacing-1;
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
 }
 
 .call:hover{
@@ -18,6 +21,7 @@
 
 .call__tel__number{
     padding-left: $spacing-3;
+    cursor: pointer;
 }
 
 #header .col-6{
@@ -29,6 +33,16 @@
     padding-left: 20%;
 }
 
+#header .drop .col-6 .drop__items li a:hover{
+  color: $light-orange;
+}
+
+#header .drop .col-6 .drop__items{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+
 #header .drop .col-6 .drop__items li{
     list-style-type: none;
 }
@@ -39,6 +53,22 @@
     list-style: none;
     font-size: $spacing-3;
 }
+
+#header .drop .col-6 .drop__items ul{
+  margin-block-start: 0;
+}
+
+#header .drop .col-6 .drop__items ul li ul{
+  position: relative;
+  left: 0;
+  display: none;
+}
+
+#header .drop .col-6 .drop__items ul li:hover ul{
+  display: block;
+}
+
+
 
 
 // menu-wrapper
@@ -59,12 +89,7 @@
 
 .header__search {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   width: 100%;
   height: 46px;
   border: 1px solid #fcb941;
@@ -73,38 +98,21 @@
 }
 
 .header__search__option {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-around;
+  align-items: center;
   width: 32%;
   height: 100%;
   position: relative;
   padding: 10px 1%;
   font-size: calc(11px + .5vw);
 }
-
-.header__search__option p {
-  color: grey;
-}
-
-.header__search__option i {
-  font-size: 10px;
-  color: grey;
-}
-
 .header__search__option:after {
-  content: "";
   position: absolute;
   right: 0;
   top: 7px;
   width: 1px;
   height: 30px;
-  background-color: #bbb8b8;
 }
 
 .header__search input {
@@ -139,6 +147,11 @@
 
 #menu-wrapper .menu__right__item{
   margin: 20px;
+}
+
+#menu-wrapper .menu__right__item:hover{
+  color: $light-orange;
+  cursor: pointer;
 }
 
 #menu-wrapper .menu__right__item i:hover{
