@@ -13,6 +13,12 @@
     <link rel="stylesheet" href="saas/style.css">
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/owl-carousel/assets/
+    owl.carousel.min.css">
+    <link rel="stylesheet" href="/owl-carousel/assets/owl.theme.default.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+    <script src="/owl-carousel/owl.carousel.min.js"></script>
 </head>
 <body>
     <section id="header">
@@ -32,22 +38,24 @@
                     <div class="drop">
                         <div class="col-6">
                             <div class="drop__items">
-                                <ul>
-                                    <li><a href="#">USD<i class="fas fa-chevron-down"></i></a>
-                                        <ul>
-                                            <a href="#">EUR</a>
-                                            <a href="#">USD</a>
+                                <ul class="nav-links">
+                                    <li>
+                                        <a href="#">USD<i class="fas fa-chevron-down"></i></a>
+                                        <ul class="drop-menu">
+                                            <li><a href="#">EUR</a></li>
+                                            <li><a href="#">USD</a></li>
                                         </ul>
                                     </li>
                                 </ul>
                             </div>
                             <div class="drop__items">
-                                <ul>
-                                    <li><a href="#">ENGLISH<i class="fas fa-chevron-down"></i></a>
-                                        <ul>
-                                            <a href="#">ENGLISH</a>
-                                            <a href="#">FRENCH</a>
-                                            <a href="#">SPANISH</a>
+                                <ul class="nav-links">
+                                    <li>
+                                        <a href="#">ENGLISH<i class="fas fa-chevron-down"></i></a>
+                                        <ul class="drop-menu">
+                                            <li><a href="#">ENGLISH</a></li>
+                                            <li><a href="#">FRENCH</a></li>
+                                            <li><a href="#">SPANISH</a></li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -75,36 +83,27 @@
                     </div>
 
                     <div class="menu__center">
-                        <form action=""><div class="header__search">
-                            <div class="header__search__option">
-                    
-                                <div class="custom-select" style="width:200px;">
-                                    <select>
-                                        <ul>
-                                            <option value="0">All Departments</option>
-                                            <option value="1">Fashion</option>
-                                            <option value="2">Women</option>
-                                            <option value="3">Man</option>
-                                            <option value="4">Jewelry</option>
-                                            <option value="5">Kids Fashion</option>
-                                            <option value="6">Electronics</option>
-                                            <option value="7">Smart TVs</option>
-                                            <option value="8">Games</option>
-                                            <option value="9">Cameras</option>
-                                            <option value="10">Home & Garden</option>
-                                            <option value="11">Motors</option>
-                                            <option value="12">Cars & Trucks</option>
-                                            <option value="13">Boats</option>
-                                            <option value="14">Auto tools & Supplies</option>
-                                        </ul>
-                                    </select>
-                                </div>
-                                
-                            </div>
-                            <input class="header__search__text" placeholder="Search product...">
-                            <button class="button__search"><i class="fas fa-search"></i></button>
-                    
-                        </div></form>
+                        <div class="custom-select" style="width:200px;">
+                            <select>
+                              <option value="0">Select car:</option>
+                              <option value="1">Audi</option>
+                              <option value="2">BMW</option>
+                              <option value="3">Citroen</option>
+                              <option value="4">Ford</option>
+                              <option value="5">Honda</option>
+                              <option value="6">Jaguar</option>
+                              <option value="7">Land Rover</option>
+                              <option value="8">Mercedes</option>
+                              <option value="9">Mini</option>
+                              <option value="10">Nissan</option>
+                              <option value="11">Toyota</option>
+                              <option value="12">Volvo</option>
+                            </select>
+                        </div>
+                        <form class="example" action="action_page.php">
+                            <input type="text" placeholder="Search.." name="search">
+                            <button type="submit"><i class="fa fa-search"></i></button>
+                        </form>
                     </div>
                         
 
@@ -138,6 +137,70 @@
                         </div>
                         <div class="menu__categories__all">
                             Browse Categories
+                        </div>
+                        <div class="navigation__menu__categories">
+                            <ul>
+                                <div class="navigation__menu__categories__elements">
+                                    <i class="fas fa-laptop"></i>
+                                    <li><a href="#">Electronics</a></li>
+                                    <i class="fas fa-angle-right"></i>
+                                </div>
+                                <div class="navigation__menu__categories__elements">
+                                    <i class="fas fa-couch"></i>
+                                    <li><a href="#">Furniture</a></li>
+                                    <i class="fas fa-angle-right"></i>
+                                </div>
+                                <div class="navigation__menu__categories__elements">
+                                    <i class="fas fa-birthday-cake"></i>
+                                    <li><a href="#">Cooking</a></li>
+                                    <i class="fas fa-angle-right"></i>
+                                </div>
+                                <div class="navigation__menu__categories__elements">
+                                    <i class="fas fa-tshirt"></i>
+                                    <li><a href="#">Clothing</a></li>
+                                    <i class="fas fa-angle-right"></i>
+                                </div>
+                                <div class="navigation__menu__categories__elements">
+                                    <i class="fas fa-blender-phone"></i>
+                                    <li><a href="#">Home Appliances</a></li>
+                                    
+                                </div>
+                                <div class="navigation__menu__categories__elements">
+                                    <i class="fas fa-heartbeat"></i>
+                                    <li><a href="#">Healthy & Beauty</a></li>
+                                    
+                                </div>
+                                <div class="navigation__menu__categories__elements">
+                                    <i class="fas fa-shoe-prints"></i>
+                                    <li><a href="#">Shoes & Boats</a></li>
+                                    
+                                </div>
+                                <div class="navigation__menu__categories__elements">
+                                    <i class="fas fa-route"></i>
+                                    <li><a href="#">Travel & Outdoor</a></li>
+                                    
+                                </div>
+                                <div class="navigation__menu__categories__elements">
+                                    <i class="fas fa-mobile-alt"></i>
+                                    <li><a href="#">Smart Phones</a></li>
+                                    
+                                </div>
+                                <div class="navigation__menu__categories__elements">
+                                    <i class="fas fa-tv"></i>
+                                    <li><a href="#">TV & Audio</a></li>
+                                    
+                                </div>
+                                <div class="navigation__menu__categories__elements">
+                                    <i class="fas fa-shopping-bag"></i>
+                                    <li><a href="#">Backpack & Bag</a></li>
+                                    
+                                </div>
+                                <div class="navigation__menu__categories__elements">
+                                    <i class="fas fa-headphones"></i>
+                                    <li><a href="#">Musical Instruments</a></li>
+                                    
+                                </div>
+                            </ul>
                         </div>
                     </div>
 
@@ -173,7 +236,7 @@
 
                     <div class="menu__clearence">
                         <div class="menu__clearence__icon">
-                            <i class="fas fa-chevron-down"></i>
+                            <i class="far fa-lightbulb"></i>
                         </div>
                         <div class="menu__clearence__all">
                             <p>Clearance Up to 30% Off</p>
@@ -183,50 +246,48 @@
             </div>
         </div>
     </section>
-    <section id="deal">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <img src="image/product-1 (1).jpg" alt="">
-                </div>
+    <!--SLIDER-->
+    
+    <div class="slider-box">
+        <div id="slider">
+            <img src="/image/slide-1.jpg" alt="">
+            <img src="/image/slide-2.jpg" alt="">
+            <img src="/image/slide-3.jpg" alt="">
+        </div>
+        <div class="indicators">
+            <div class="indicators__elements">
+                <span id="btn1" class="active"></span>
+                <span id="btn2"></span>
+                <span id="btn3"></span>
             </div>
         </div>
-    </section>
-    <section id="slider">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div class="slider">
-                        <div class="slides">
-                            <input type="radio" name="radio-btn" id="radio1">
-                            <input type="radio" name="radio-btn" id="radio2">
-                            <input type="radio" name="radio-btn" id="radio3">
-                            <div class="slide first">
-                                <img src="image/slide-1.jpg" alt="">
-                            </div>
-                            <div class="slide">
-                                <img src="image/slide-2.jpg" alt="">
-                                
-                            </div>
-                            <div class="slide">
-                                <img src="image/slide-3.jpg" alt="">
-                            </div>
-                            <div class="navigation-auto">
-                                <div class="auto-btn1"></div>
-                                <div class="auto-btn2"></div>
-                                <div class="auto-btn3"></div>
-                            </div>
-                        </div>
-                        <div class="navigation-manual">
-                            <label for="radio1" class="manual-btn"></label>
-                            <label for="radio2" class="manual-btn"></label>
-                            <label for="radio3" class="manual-btn"></label>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    </div>
+
+    <script>
+        var slide=document.getElementById("slider");
+        var btn2=document.getElementById("btn2");
+        var btn3=document.getElementById("btn3");
+
+        btn1.onclick=function(){
+            slide.style.transform="translateX(0px)";
+            btn1.classList.add("active");
+            btn2.classList.remove("active");
+            btn3.classList.remove("active");
+        }
+        btn2.onclick=function(){
+            slide.style.transform="translateX(-100%)";
+            btn2.classList.add("active");
+            btn1.classList.remove("active");
+            btn3.classList.remove("active");
+        }
+        btn3.onclick=function(){
+            slide.style.transform="translateX(-200%)";
+            btn3.classList.add("active");
+            btn1.classList.remove("active");
+            btn2.classList.remove("active");
+        }
+    </script>
+
 
     <div class="container">
         <div class="row">
@@ -268,24 +329,191 @@
         <div class="cell"><img src="image/sp6.png" alt=""></div>
         <div class="cell"><img src="image/sp7.png" alt=""></div>    
     </div>
+    <div class="bestsellers">
+            <div class="bestsellers__elements">
+                <div class="bestsellers__img">
+                    <img src="/image/elem1.jpg" alt="">
+                </div>
+        
+                <div class="bestsellers__bestsellers__history">
+                    <h1>Sceptre 50" Class FHD (1080P)</h1>
+                    <h1>LED TV</h1>
+                    <h1 class="dolar">$199.99</h1>
+                </div>
+            </div>
+            <div class="bestsellers__elements-1">
+                <div class="bestsellers__img">
+                    <img src="/image/elem2.jpg" alt="">
+                </div>
+                <div class="bestsellers__bestsellers__history">
+                    <h1>Red Cookware Set, 9 Piece</h1>
+                    <h1 class="dolar">$24.95</h1>
+                </div>
+            </div>
+            <div class="bestsellers__elements-2">
+                <div class="bestsellers__img">
+                    <img src="/image/elem3.jpg" alt="">
+                </div>
+                <div class="bestsellers__bestsellers__history">
+                    <h1>Epson WorkForce WF-2750 All-</h1>
+                    <h1>in-One Wireless</h1>
+                    <h1 class="dolar">$49.99</h1>
+                </div>
+            </div>
+            <div class="bestsellers__elements-3">
+                <div class="bestsellers__img">
+                    <img src="/image/elem4.jpg" alt="">
+                </div>
+                <div class="bestsellers__bestsellers__history">
+                    <h1>Stainless Steel Microwave Oven</h1>
+                    <h1 class="dolar">$64.84</h1>
+                </div>
+            </div>
+            <div class="bestsellers__elements-4">
+                <div class="bestsellers__img">
+                    <img src="/image/elem5.jpg" alt="">
+                </div>
+                <div class="bestsellers__bestsellers__history">
+                    <h1>Fatboy Original Beanbag</h1>
+                    <h1 class="dolar">$49.99</h1>
+                </div>
+            </div>
+    </div>
 
-    <section id="product">
+    <div class="deal__week">
+        <div class="deal__week__elements">
+            <div class="deal__week__elements__img">
+                <img src="/image/product-1 (1).jpg" alt="">
+            </div>
+            <div class="deal__week__elements__history">
+                <h1>Bose SoundLink Micro speaker</h1>
+                <h1 class="dollar">$99.99Was $110.99</h1>
+                <div class="icon__flex">
+                    <div class="star__icon">
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <h1 class="rewiew">( 4 Reviews )</h1>
+                </div>
+                <!-- Display the countdown timer in an element -->
+<p id="demo"></p>
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Jan 5, 2022 15:37:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+  // If the count down is finished, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="deal__week">
+        <div class="deal__week__elements">
+            <div class="deal__week__elements__img">
+                <img src="/image/product-2 (1).jpg" alt="">
+            </div>
+            <div class="deal__week__elements__history">
+                <h1>GoPro HERO Session Waterproof HD</h1>
+                <h1>Action Camera</h1>
+                <h1 class="dollar">$196.99Was $210.99</h1>
+                <div class="icon__flex">
+                    <div class="star__icon">
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <h1 class="rewiew">( 4 Reviews )</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="photos">
+        <img src="/image/banner-12.jpg" alt="">
+    </div>
+
+    <div class="blog__posts">
+        <h1>Latest Blog Posts</h1>
+        <div class="blog__posts__img">
+            <img src="/image/post-1.jpg" alt="">
+        </div>
+        <div class="blog__posts__history">
+            <h1 class="time">Now 22,2018,0 Comments</h1>
+            <h1 class="header">Sed adipiscing ornare</h1>
+            <h1 class="history">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae dignissimos dolorem, at numquam et neque.</h1>
+            <h1 class="btn">Read More</h1>
+        </div>
+    </div>
+
+    <section id="boxes">
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <div class="product">
-                        <div class="main-carousel">
-                            <div class="cell"><img src="image/elec1.jpg" alt=""></div>
-                            <div class="cell"><img src="image/elec2.jpg" alt=""></div>
-                            <div class="cell"><img src="image/elec3.jpg" alt=""></div>
-                            <div class="cell"><img src="image/elec4.jpg" alt=""></div>
-                            <div class="cell"><img src="image/elec5.jpg" alt=""></div>
-                        </div>
+                    <div class="boxes__icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <div class="boxes__free">
+                        <h2>Free Shipping</h2>
+                        <p>Orders $50 or more</p>
+                    </div>
+                    <div class="boxes__icon">
+                        <i class="fas fa-undo"></i>
+                    </div>
+                    <div class="boxes__free">
+                        <h2>Free Returns</h2>
+                        <p>Within 30 days</p>
+                    </div>
+                    <div class="boxes__icon">
+                        <i class="fas fa-info-circle"></i>
+                    </div>
+                    <div class="boxes__free">
+                        <h2>Get 20% Off 1 Item</h2>
+                        <p>When you sign up</p>
+                    </div>
+                    <div class="boxes__icon">
+                        <i class="fas fa-life-ring"></i>
+                    </div>
+                    <div class="boxes__free">
+                        <h2>We Support</h2>
+                        <p>24/7 amazing services</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    
 
     <section id="newsletter">
         <div class="container">

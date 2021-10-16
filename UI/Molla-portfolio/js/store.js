@@ -1,3 +1,10 @@
+let header_drop = document.querySelector(".navigation__menu__categories")
+let header_select = document.querySelector(".menu__categories")
+
+header_select.addEventListener("click", ()=>{
+    header_drop.classList.toggle("toogle-active")
+})
+
 var x, i, j, l, ll, selElmnt, a, b, c;
 /* Look for any elements with the class "custom-select": */
 x = document.getElementsByClassName("custom-select");
