@@ -73,6 +73,12 @@
   display: block;
   padding: 0 0 0 15px;
   font-weight: 400;
+  color: black;
+}
+
+#header .drop .drop__items a{
+  color: black;
+  text-decoration: none;
 }
 
 
@@ -331,6 +337,7 @@ form.example::after {
 }
 
 .navigation__menu__categories__elements i{
+  text-decoration: none;
   font-size: 13px;
   padding-top: 8px;
 }
@@ -338,6 +345,9 @@ form.example::after {
 .navigation__menu__categories__elements li a{
   font-size: 14px;
   padding: 13px;
+  text-decoration: none;
+  list-style: none;
+  color: $light-grey;
 }
 
 
@@ -441,19 +451,8 @@ form.example::after {
 }
 
 
-/*Menu Slider End*/
 
-// slide
-.main-carousel{
-  padding-left: 30%;
-  bottom: 150px;
-}
 
-.cell{
-  width: 20%;
-  height: 50px;
-  margin: 0 5px;
-}
 
 
 /*boxes Start*/
@@ -474,6 +473,19 @@ form.example::after {
   font-size: 30px;
   padding: 7px 0;
 }
+
+.cell{
+  width: 20%;
+  height:60px;
+  margin: 0 7px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.main-carousel{
+  padding-right: 10%;
+}
+
 
 /*bestsellers Start*/
 .bestsellers{
@@ -592,6 +604,10 @@ form.example::after {
 
 .blog__posts .btn{
   color: #ffd894;
+}
+
+.blog__posts h1{
+  font-size: 22px;
 }
 
 /*Blog End*/
