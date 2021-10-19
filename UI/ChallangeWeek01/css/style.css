@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+/*Header Start*/
+#header .header__brand img{
+    height: 50px;
+    padding: 50px 100px;
+}
+
+#header .col{
+    display: flex;
+}
+
+#header .header__menu{
+    padding: 47px;
+    padding-left: 20%;
+}
+
+#header .header__menu ul{
+    display: flex;
+    text-decoration: none;
+}
+
+#header .header__menu ul li{
+    margin: 20px;
+}
+
+#header .header__menu ul li a{
+    color:#bbbbbd;
+    text-decoration:none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#header .header__menu ul li a:hover{
+    color:#5b5a5f;
+}
+/*Header End*/
+
+/*Menu Start*/
+#menu{
+    padding-left: 10%;
+}
+
+#menu .col{
+    display: flex;
+}
+
+#menu .menu__health{
+    padding-left:10%;
+}
+
+#menu .menu-img img{
+    height: 350px;
+    padding-left: 100px;
+}
+
+#menu .menu__health h1{
+    font-size:35px;
+    color:#5b5a5f;
+}
+
+#menu .menu__health .menu__health-p{
+    padding: 20px 0;
+}
+
+#menu .menu__health .menu__health-p p{
+    color: #bbbbbd;
+    font-family: 'Open Sans', sans-serif;
+}
+#menu .btn{
+    font-size: 18px;
+    color:#fff;
+    margin: 5px;
+    padding: 7px 22px;
+    text-decoration: none;
+    background:#458ff8;
+    border-radius: 25px;
+}
+
+#menu .menu__health a{
+    font-size: 13px;
+}
+
+/*Menu End*/
+
+/*Services Start*/
+#services{
+    text-align: center;
+}
+
+#services .services-history h1{
+    color:#5b5a5f;
+    font-size: 25px;
+}
+
+#services .services-history-p{
+    padding: 60px 0;
+}
+
+#services .services-blog .col-3{
+    height: 250px;
+    width: 250px;
+    border: 1px solid black;
+    border-radius:10px;
+}
+
+#services .services-blog{
+    padding-left: 15%;
+}
+
+#services .services-blog .blog-1{
+    display: flex;
+}
+
+#services .services-blog .blog-2{
+    display: flex;
+    padding: 30px 0;
+}
+
+#services i{
+    color: blue;
+    font-size:70px;
+}
+
+#services .col-3 h1{
+    color: #5b5a5f;
+}
+
+#services .col-3 p{
+    color: #bbbbbd;
+}
+
+#services .btn{
+    font-size: 18px;
+    color:#458ff8;
+    border: 1px solid #458ff8;
+    margin: 5px;
+    padding: 9px 22px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+/*Services End*/
+
+
