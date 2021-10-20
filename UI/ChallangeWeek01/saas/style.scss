@@ -1,3 +1,4 @@
+@import "./veriable";
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
 
 *{
@@ -31,13 +32,13 @@
 }
 
 #header .header__menu ul li a{
-    color:#bbbbbd;
+    color:$dark-white;
     text-decoration:none;
     font-family: 'Open Sans', sans-serif;
 }
 
 #header .header__menu ul li a:hover{
-    color:#5b5a5f;
+    color:$light-black;
 }
 /*Header End*/
 
@@ -61,7 +62,7 @@
 
 #menu .menu__health h1{
     font-size:35px;
-    color:#5b5a5f;
+    color:$light-black;
 }
 
 #menu .menu__health .menu__health-p{
@@ -69,16 +70,16 @@
 }
 
 #menu .menu__health .menu__health-p p{
-    color: #bbbbbd;
+    color: $dark-white;
     font-family: 'Open Sans', sans-serif;
 }
 #menu .btn{
     font-size: 32px;
-    color:#fff;
+    color:$light-1;
     margin: 5px;
     padding: 12px 40px;
     text-decoration: none;
-    background:#458ff8;
+    background:$light-blue;
     border-radius: 25px;
 }
 
@@ -92,7 +93,7 @@
 
 
 #services .services-history h1{
-    color:#5b5a5f;
+    color:$light-black;
     font-size: 25px;
     text-align: center;
 }
@@ -105,7 +106,7 @@
 #services .services-blog .col-3{
     height: 250px;
     width: 250px;
-    border: 1px solid black;
+    border: 1px solid $black;
     border-radius:10px;
     margin-left: 20px;
 }
@@ -144,7 +145,7 @@
 }
 
 #services .col-3 h1{
-    color: #5b5a5f;
+    color: $light-black;
 }
 
 #services .col-3 p{
@@ -152,9 +153,9 @@
 }
 
 #services .btn{
-    font-size: 18px;
-    color:#458ff8;
-    border: 1px solid #458ff8;
+    font-size: 17px;
+    color:$light-blue;
+    border: 1px solid $light-blue;
     margin: 5px;
     padding: 9px 22px;
     text-decoration: none;
@@ -192,7 +193,7 @@
 
 #healthcare .healthcare__history h1{
     font-size:35px;
-    color:#5b5a5f;
+    color:$light-black;
 }
 
 #healthcare .healthcare__history .healthcare-p{
@@ -200,16 +201,16 @@
 }
 
 #healthcare .healthcare__history .healthcare-p p{
-    color: #bbbbbd;
+    color: $dark-white;
     font-family: 'Open Sans', sans-serif;
 }
 #healthcare .btn{
     font-size: 32px;
-    color:#458ff8;
+    color:$light-blue;
     margin: 5px;
     padding: 12px 40px;
     text-decoration: none;
-    border: 1px solid #458ff8;
+    border: 1px solid $light-blue;
     border-radius: 25px;
 }
 
@@ -242,7 +243,7 @@
 
 #download .download__history h1{
     font-size:35px;
-    color:#5b5a5f;
+    color:$light-black;
 }
 
 #download .download__history .download-p{
@@ -250,17 +251,17 @@
 }
 
 #download .download__history .download-p p{
-    color: #bbbbbd;
+    color: $dark-white;
     font-family: 'Open Sans', sans-serif;
 }
 #download .btn{
     font-size: 32px;
-    color:#458ff8;
+    color:$light-blue;
     margin: 5px;
     padding: 12px 40px;
     text-decoration: none;
     border-radius: 25px;
-    border: 1px solid #458ff8;
+    border: 1px solid $light-blue;
 }
 
 #download .download__history a{
@@ -277,7 +278,7 @@
 #person{
     width:800px;
     height:370px;
-    background:#458ff8;
+    background:$light-blue;
     border-radius: 25px;
     margin-left: 200px;
 }
@@ -290,12 +291,12 @@
 }
 
 #person .person-img .person-img-history{
-    color: #fffeff;
+    color: $light-white;
     padding: 30px;
 }
 
 #person .person-title h1{
-    color:#fffeff;
+    color: $light-white;
     text-align: center;
     font-size:32px;
 }
@@ -309,7 +310,7 @@
 }
 
 #person .person-history p{
-    color: #fffeff;
+    color: $light-white;
 }
 
 #person .person-btn{
@@ -329,7 +330,7 @@
 #cart .cart .col-4{
     height: 420px;
     width: 300px;
-    border: 1px solid black;
+    border: 1px solid $black;
     border-radius:25px ;
     margin-left:23px;
 }
@@ -347,7 +348,7 @@
 
 #cart .cart-history h1{
     padding-left: 27px;
-    color: #5b5a5f;
+    color: $light-black;
 }
 
 #cart .cart-history .cart-history-p{
@@ -357,7 +358,7 @@
 
 
 #cart .cart-history .cart-history-p p{
-    color: #bbbbbd;
+    color: $dark-white;
 }
 
 #cart .col-4 .btn{
@@ -365,12 +366,12 @@
 }
 
 #cart .col-4 .btn{
-    color: #458ff8;
+    color: $light-blue;
     padding: 22px 0;
 }
 
 #cart .col-4 .btn a{
-    color: #458ff8;
+    color: $light-blue;
     text-decoration: none;
 }
 
@@ -380,12 +381,12 @@
 
 #cart .cart-btn .btn{
     font-size: 17px;
-    color:#458ff8;
+    color:$light-blue;
     margin: 3px;
     padding: 7px 32px;
     text-decoration: none;
     border-radius: 25px;
-    border: 1px solid #458ff8;
+    border: 1px solid $light-blue;
 }
 
 #cart .cart-btn{
@@ -398,7 +399,7 @@
 
 /*Footer Start*/
 footer{
-    background: #458ff8;
+    background: $light-blue;
     padding: 85px 0;
     padding-left: 150px;
 }
@@ -416,16 +417,16 @@ footer .footer-corrective{
 }
 
 footer p{
-    color: #fffeff;
+    color: $light-white;
 }
 
 footer h1{
-    color:#fffeff;
+    color:$light-white;
     font-size: 22px;
 }
 
 footer .footer-menu h3{
-    color: #fffeff;
+    color: $light-white;
     font-size:17px;
 }
 
@@ -439,15 +440,7 @@ footer .footer-menu .footer-p p{
 
 footer .footer-menu .footer-p p a{
     text-decoration:none;
-    color: #fffeff;
+    color: $light-white;
     font-size: 15px;
 }
 /*Footer End*/
-
-
-
-
-
-
-
-
