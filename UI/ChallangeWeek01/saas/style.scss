@@ -1,16 +1,16 @@
-@import "./veriable";
+@import "./veriables/veriable";
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
 
 *{
-    margin: 0;
-    padding: 0;
+    margin: $margin-little;
+    padding: $small-padding;
     list-style-type: none;
 }
 
 /*Header Start*/
 #header .header__brand img{
-    height: 50px;
-    padding: 50px 100px;
+    height: $height-little;
+    padding: $padding-big-5;
 }
 
 #header .col{
@@ -18,8 +18,8 @@
 }
 
 #header .header__menu{
-    padding: 47px;
-    padding-left: 20%;
+    padding: $big1-padding;
+    padding-left: $padding-interest-1;
 }
 
 #header .header__menu ul{
@@ -28,7 +28,7 @@
 }
 
 #header .header__menu ul li{
-    margin: 20px;
+    margin: $margin-medium;
 }
 
 #header .header__menu ul li a{
@@ -44,7 +44,7 @@
 
 /*Menu Start*/
 #menu{
-    padding-left: 10%;
+    padding-left: $padding-interest;
 }
 
 #menu .col{
@@ -52,21 +52,21 @@
 }
 
 #menu .menu__health{
-    padding-left:10%;
+    padding-left:$padding-interest;
 }
 
 #menu .menu-img img{
-    height: 350px;
-    padding-left: 100px;
+    height: $height-medium;
+    padding-left: $padding-big;
 }
 
 #menu .menu__health h1{
-    font-size:35px;
+    font-size:$big-1;
     color:$light-black;
 }
 
 #menu .menu__health .menu__health-p{
-    padding: 20px 0;
+    padding: $padding-small-2;
 }
 
 #menu .menu__health .menu__health-p p{
@@ -74,17 +74,17 @@
     font-family: 'Open Sans', sans-serif;
 }
 #menu .btn{
-    font-size: 32px;
+    font-size: $size-big;
     color:$light-1;
-    margin: 5px;
+    margin: $margin-little-2;
     padding: 12px 40px;
     text-decoration: none;
     background:$light-blue;
-    border-radius: 25px;
+    border-radius: $radius-big;
 }
 
 #menu .menu__health a{
-    font-size: 13px;
+    font-size: $little-1;
 }
 
 /*Menu End*/
@@ -94,25 +94,25 @@
 
 #services .services-history h1{
     color:$light-black;
-    font-size: 25px;
+    font-size: $medium-1;
     text-align: center;
 }
 
 #services .services-history-p{
-    padding: 60px 0;
+    padding: $padding-medium-1;
     text-align: center;
 }
 
 #services .services-blog .col-3{
-    height: 250px;
-    width: 250px;
+    height: $height-little-2;
+    width: $width-little;
     border: 1px solid $black;
-    border-radius:10px;
-    margin-left: 20px;
+    border-radius:$radius-small;
+    margin-left: $margin-medium-marginleft;
 }
 
 #services .services-blog{
-    padding-left: 15%;
+    padding-left: $big-2-padding;
 }
 
 #services .services-blog .blog-1{
@@ -120,28 +120,28 @@
 }
 
 #services .services-blog .blog-1 h1{
-    padding-left: 30px;
+    padding-left: $big-padding;
 }
 
 #services .services-blog .blog-1 p{
-    padding-left: 30px;
+    padding-left: $big-padding;
 }
 
 #services .services-blog .blog-2{
     display: flex;
-    padding: 30px 0;
+    padding: $padding-little-4;
 }
 
 #services .services-blog .blog-2 h1{
-    padding-left: 30px;
+    padding-left: $big-padding;
 }
 
 #services .services-blog .blog-2 p{
-    padding-left: 30px;
+    padding-left: $big-padding;
 }
 
 #services img{
-    padding: 10px;
+    padding: $medium-padding;
 }
 
 #services .col-3 h1{
@@ -149,33 +149,33 @@
 }
 
 #services .col-3 p{
-    color: #bbbbbd;
+    color: $dark-white;
 }
 
 #services .btn{
-    font-size: 17px;
+    font-size: $little-3;
     color:$light-blue;
     border: 1px solid $light-blue;
-    margin: 5px;
-    padding: 9px 22px;
+    margin: $margin-little-2;
+    padding: $padding-big-4;
     text-decoration: none;
-    border-radius: 20px;
+    border-radius: $radius-medium;
 }
 
 #services .services-blog i{
-    padding: 30px;
+    padding: $big-padding;
 }
 
 #services .services-btn{
     text-align:center;
-    padding: 40px 0;
+    padding: $padding-medium;
 }
 /*Services End*/
 
 /*Healthcare Start*/
 
 #healthcare{
-    padding-left: 10%;
+    padding-left: $padding-interest;
 }
 
 #healthcare .col{
@@ -183,21 +183,21 @@
 }
 
 #healthcare .healthcare__history{
-    padding-left:10%;
+    padding-left:$padding-interest;
     padding-right: 100px;
 }
 
 #healthcare .healthcare-img img{
-    height: 300px;
+    height: $height-little-3;
 }
 
 #healthcare .healthcare__history h1{
-    font-size:35px;
+    font-size:$big-1;
     color:$light-black;
 }
 
 #healthcare .healthcare__history .healthcare-p{
-    padding: 20px 0;
+    padding: $padding-small-2;
 }
 
 #healthcare .healthcare__history .healthcare-p p{
@@ -205,17 +205,17 @@
     font-family: 'Open Sans', sans-serif;
 }
 #healthcare .btn{
-    font-size: 32px;
+    font-size: $size-big;
     color:$light-blue;
-    margin: 5px;
-    padding: 12px 40px;
+    margin: $margin-little-2;
+    padding: $padding-big-2;
     text-decoration: none;
     border: 1px solid $light-blue;
-    border-radius: 25px;
+    border-radius: $radius-big;
 }
 
 #healthcare .healthcare__history a{
-    font-size: 13px;
+    font-size: $little-1;
 }
 
 /*Healthcare End*/
@@ -224,8 +224,8 @@
 /*Download Start*/
 
 #download{
-    padding-left: 10%;
-    padding: 150px 0;
+    padding-left: $padding-interest;
+    padding: $padding-big-1;
 }
 
 #download .col{
@@ -233,21 +233,21 @@
 }
 
 #download .download__history{
-    padding-left:10%;
-    padding-right: 100px;
+    padding-left:$padding-interest;
+    padding-right: $padding-big;
 }
 
 #download .download-img img{
-    height: 300px;
+    height: $height-little-3;
 }
 
 #download .download__history h1{
-    font-size:35px;
+    font-size:$big-1;
     color:$light-black;
 }
 
 #download .download__history .download-p{
-    padding: 20px 0;
+    padding: $padding-small-2;
 }
 
 #download .download__history .download-p p{
@@ -255,35 +255,35 @@
     font-family: 'Open Sans', sans-serif;
 }
 #download .btn{
-    font-size: 32px;
+    font-size: $size-big;
     color:$light-blue;
-    margin: 5px;
-    padding: 12px 40px;
+    $margin-little-2: 5px;
+    padding: $padding-big-2;
     text-decoration: none;
-    border-radius: 25px;
+    border-radius: $radius-big;
     border: 1px solid $light-blue;
 }
 
 #download .download__history a{
-    font-size: 13px;
+    font-size: $little-1;
 }
 
 #download .download-btn i{
-    padding-left: 10px;
+    padding: $medium-padding;
 }
 
 /*Download End*/
 
 /*Person Start*/
 #person{
-    width:800px;
-    height:370px;
+    width:$width-big;
+    height:$height-medium-1;
     background:$light-blue;
-    border-radius: 25px;
-    margin-left: 200px;
+    border-radius: $radius-big;
+    margin: $margin-big-1;
 }
 #person .person-title{
-    padding: 60px 0;
+    padding: $padding-medium-1;
 }
 
 #person .person-img{
@@ -292,13 +292,13 @@
 
 #person .person-img .person-img-history{
     color: $light-white;
-    padding: 30px;
+    padding: $big-padding;
 }
 
 #person .person-title h1{
     color: $light-white;
     text-align: center;
-    font-size:32px;
+    font-size:$size-big;
 }
 
 #person .person-all{
@@ -306,7 +306,7 @@
 }
 
 #person .person-history{
-    padding-left: 200px;
+    padding-left: $padding-big-1;
 }
 
 #person .person-history p{
@@ -319,6 +319,8 @@
 }
 
 
+
+
 /*Person End*/
 
 /*Cart Start*/
@@ -328,21 +330,21 @@
 }
 
 #cart .cart .col-4{
-    height: 420px;
+    $height-big: 420px;
     width: 300px;
     border: 1px solid $black;
-    border-radius:25px ;
-    margin-left:23px;
+    $radius-big:25px ;
+    $margin-medium-4:23px;
 }
 
 #cart .cart-title h1{
     text-align: center;
-    font-size: 35px;
+    $big-1: 35px;
     padding: 70px 0;
 }
 
 #cart .cart .col-4 img{
-    height: 200px;
+    $height-little-1: 200px;
     width: 100%;
 }
 
@@ -380,12 +382,12 @@
 
 
 #cart .cart-btn .btn{
-    font-size: 17px;
+    $little-3: 17px;
     color:$light-blue;
-    margin: 3px;
+    $margin-little-1: 3px;
     padding: 7px 32px;
     text-decoration: none;
-    border-radius: 25px;
+    $radius-big: 25px;
     border: 1px solid $light-blue;
 }
 
@@ -422,12 +424,12 @@ footer p{
 
 footer h1{
     color:$light-white;
-    font-size: 22px;
+    $medium: 22px;
 }
 
 footer .footer-menu h3{
     color: $light-white;
-    font-size:17px;
+    $little-3:17px;
 }
 
 footer .footer-menu .footer-p{
@@ -441,6 +443,6 @@ footer .footer-menu .footer-p p{
 footer .footer-menu .footer-p p a{
     text-decoration:none;
     color: $light-white;
-    font-size: 15px;
+    $little-2: 15px;
 }
 /*Footer End*/
