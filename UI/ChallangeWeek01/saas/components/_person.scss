@@ -1,0 +1,83 @@
+#person{
+    background-image:linear-gradient(#67C3F3 , #5A98F2);
+    height: 400px;
+    
+
+}
+
+#person .person-title{
+    text-align: center;
+    padding: 60px 0;
+}
+
+#person .person-title h1{
+    color: $light-white;
+
+}
+
+
+#person .person-img{
+    display: flex;
+    margin-left: 118px;
+    img{
+        width: 137px;
+        height: 137px;
+    }
+    &-history h1{
+        font-size:22px;
+        line-height: 48px;
+    }
+  
+}
+
+#person .person-all{
+    display: flex;
+}
+
+#person .person-history{
+   margin-left: 110px;
+}
+
+#person .person-history p{
+    color: $light-white;
+    font-size: 19px;
+    width: 380px;
+    height: 120px;
+    line-height: 30px;
+   
+    
+ }
+
+#person .person-img .person-img-history{
+    padding: 30px;
+}
+
+#person .person-img .person-img-history h1{
+    color: $light-white;
+}
+
+#person .person-img .person-img-history p{
+    color: $light-white;
+    padding: 10px 0;
+}
+
+.personal-btn{
+  padding-left:37%;
+  margin: 150px 0;
+  display: flex;
+}
+
+.personal-btn .personal-btn-arrow-left{
+    color: blue;
+    padding-right: 100px;
+}
+
+.personal-btn .personal-btn-arrow-right{
+    color: blue;
+    padding-left: 100px;
+}
+
+
+.personal-btn .personal-btn-circle i{
+    margin-left: 10px 0;
+}

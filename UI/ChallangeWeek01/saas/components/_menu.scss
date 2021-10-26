@@ -1,0 +1,54 @@
+#menu {
+    padding-left: 10%;
+  }
+  
+  #menu .col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  #menu .menu__health {
+    padding-left: 10%;
+  }
+  
+  #menu .menu-img img {
+    height: 350px;
+    padding-left: 100px;
+  }
+  
+  #menu .menu__health h1 {
+    font-size: 35px;
+    color: #5b5a5f;
+  }
+  
+  #menu .menu__health .menu__health-p {
+    padding: 20px, 0;
+  }
+  
+  #menu .menu__health .menu__health-p p {
+    color: #bbbbbd;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  #menu .menu__health-btn{
+    padding: 20px 0;
+  }
+  
+  #menu .btn {
+    font-size: 32px;
+    color: #fff;
+    margin: 5px;
+    padding: 12px 40px;
+    text-decoration: none;
+    background: #458ff8;
+    border-radius: 25px;
+  }
+  
+  #menu .menu__health a {
+    font-size: 13px;
+  }
+
+/*Responsive*/
+
+
