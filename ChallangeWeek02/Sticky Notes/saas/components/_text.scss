@@ -1,0 +1,18 @@
+#text-notes{
+    .notes-text{
+        padding-left: 35%;
+        margin: 80px 0;
+    }
+    #note{
+        font-family: $btn-font;
+        width: 300px;
+        height: 300px;
+        font-size: 24px;
+        padding: 20px;
+    }
+
+    i{
+        position: absolute;
+        
+    }
+}
