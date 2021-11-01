@@ -1,0 +1,113 @@
+*{
+    margin: $margin-weak;
+    padding: $padding-weak;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Architects Daughter', cursive;
+    background-color: $light-brown;
+}
+
+.note{
+    width: $width-full;
+    height: $height-mega1;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $light-black;
+    z-index: $z-index_mega;
+    .new__note{
+        width: $width;
+        height: $height;
+        position: relative;
+        i{
+            position: absolute;
+            top: 3%;
+            right: 3%;
+            font-size: $size-medium;
+            color:$gray;
+            cursor: pointer;
+        }
+    textarea{
+        width: $width-bottom;
+        height: $height-bottom;
+        padding: $padding-big;
+        outline: none;
+        resize: $size;
+        font-size: $size-big;
+        font-family: $family;
+        box-shadow: 0px 2px 4px 0px $black;
+        #input{
+            height: $height-bottom1;
+            width: $width-bottom1;
+        }
+    }
+
+    
+
+}
+}
+
+
+header{
+    width: $width-mega;
+    max-width:$width-mega1;
+    margin: $margin;
+    height: $height;
+    .container{
+        width: $width-interest1;
+        color: $white;
+        padding: $padding-interest;
+        min-height: $height-weak;
+        text-shadow: 1px 1px $black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h1{
+            .fas{
+                color: $light-yellow;
+                font-weight: 900;
+            }
+        }
+        
+        .btn{
+            padding: $padding-bottom;
+            outline: none;
+            cursor: pointer;
+            font-family: $family;
+            border-radius: 5px;
+            background-color: $light-white;
+            border: 1px solid $light-gray;
+            &:hover {
+                color: $white;
+                background-color: rgba(0, 0, 0, 0.1);
+                transition: 0.5s;
+            }
+        }
+    }
+}
+
+
+    .main{
+        width: $width-interest;
+        height: $height;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-top: $padding-bottom-1;
+        margin:$margin-interest;
+        h1{
+            position: relative;
+        }
+    }
+
+
+@media only screen and (max-width:$width-medium){
+    .container{
+        flex-direction: column;
+        gap: 15px;
+        padding: $padding-medium !important;
+    }
+}
