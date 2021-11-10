@@ -42,8 +42,13 @@ body{
                             color: #e0eef7;
                             padding: 8px 10px;
                             font-size: 20px;
+                            a{
+                                text-decoration: none;
+                                color: #e0eef7;
+                                padding-left: 30px;
+                            }
                             .home-btn-icon{
-                                padding-left: 60px;
+                                padding-left: 40px;
                             }
                         }
                     }
@@ -53,10 +58,22 @@ body{
                     }
                 }
             }
-            
-            
+        }
+    }
+    #footer{
+        z-index: 5;
+        .footer-dark-light{
+            z-index: 5;
+            #icon{
+                width: 30px;
+                cursor: pointer;
+            }
+        }
+        .footer-created{
+            z-index: 10;
         }
     }
 }
+
         
         

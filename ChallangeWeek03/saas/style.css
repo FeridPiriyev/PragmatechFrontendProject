@@ -77,12 +77,35 @@ body #home .container .row .col .home-btn button {
   font-size: 20px;
 }
 
+body #home .container .row .col .home-btn button a {
+  text-decoration: none;
+  color: #e0eef7;
+  padding-left: 30px;
+}
+
 body #home .container .row .col .home-btn button .home-btn-icon {
-  padding-left: 60px;
+  padding-left: 40px;
 }
 
 body #home .container .row .col .home-highscore {
   width: 70%;
   text-align: center;
+}
+
+body #footer {
+  z-index: 5;
+}
+
+body #footer .footer-dark-light {
+  z-index: 5;
+}
+
+body #footer .footer-dark-light #icon {
+  width: 30px;
+  cursor: pointer;
+}
+
+body #footer .footer-created {
+  z-index: 10;
 }
 /*# sourceMappingURL=style.css.map */
