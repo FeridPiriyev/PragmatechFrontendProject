@@ -1,7 +1,50 @@
 let names=['Zohrab','Qurbani','Iskender','Nezrin','Ferid','Huseyn']
+// adinda o herfi olanlar baslangic//
 
-// daxilinde o hərfi olan tələbələrin adlarını bir arraya yigin
-//1. o herfini tapmaq sozun icerisinde
-//2. serte uygun sozu arraya elave etmek
-// adinin uzunlugu 5-dən boyuk olan tələbələrin adlarini bir arrya yigin
-// tələbə adlarinin boyuk herfle yazilmis versiyasinin oldugu array yaradin
+//function GetNewArr(arr){
+    //let newArr=[]
+
+    //for(let i in arr){
+        //if(arr[i].includes("o")){
+            //newArr.push(arr[i])
+        //}
+    //}
+
+    //return newArr;
+//}
+
+//let newArr=GetNewArr(names)
+
+//console.log(newArr)
+
+//bitis//
+
+
+//adi 5 herfden cox olanlar
+
+//function GetNewArr(arr){
+    //let newArr=[]
+
+    //for(let i in arr){
+        //if(arr[i].length>5){
+            //newArr.push(arr[i])
+        //}
+    //}
+
+    //return newArr;
+//}
+
+//let newArr=GetNewArr(names)
+
+//console.log(newArr)
+
+//bitis//
+
+
+
+
+
+
+
+
+
