@@ -30,17 +30,20 @@
                     <h5 class="my-3">Add New User</h5>
                     <form id="form">
                       <div class="mb-3">
-                        <input type="password" class="form-control" id="name" placeholder="Your Name">
+                        <input type="text" class="form-control" id="name" placeholder="Your Name">
                       </div>
 
                       <div class="mb-3">
-                        <input type="password" class="form-control" id="surname" placeholder="Your Surname">
+                        <input type="text" class="form-control" id="surname" placeholder="Your Surname">
                       </div>
-                      <button type="submit" class="btn btn-primary" onclick="submitUserData()">Add</button>
+                      <button type="submit" class="btn btn-primary" onclick="submitUserData(event)">Add</button>
                     </form>
                 </div>
-            </div>
+           </div>
         </div>
+
+      </div>
+
         <div class="row">
             <div class="col-8 offset-2">
                 <h5 class="my-3">User</h5>
@@ -54,15 +57,7 @@
                     </tr>
                   </thead>
                   <tbody>
-                    <tr>
-                      <td>1</td>
-                      <td>Samir</td>
-                      <td>Kerimov</td>
-                      <td>
-                          <a href="" class="btn btn-primary">Delete</a>
-                          <a href="" class="btn btn-primary">Update</a>
-                      </td>
-                    </tr>
+
                   </tbody>
                 </table>
             </div>
