@@ -1,0 +1,39 @@
+/*Brand font*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+/*p font*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+body #navbar .container .navbar_brand {
+  padding: 3px 120px;
+}
+
+body #navbar .container .navbar_brand .name_brand_name {
+  font-family: 'Poppins', sans-serif;
+}
+
+body #navbar .container .navbar_brand .name_brand_name h1 {
+  color: #2f343f;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+body #navbar .container .navbar_brand .name_brand_name span {
+  color: #da0909;
+  font-size: 25px;
+}
+
+body #navbar .container .navbar_brand .name_brand_info {
+  line-height: 0;
+}
+
+body #navbar .container .navbar_brand .name_brand_info h4 {
+  font-size: 14px;
+  color: #465e6a;
+  font-family: 'Roboto', sans-serif;
+}
+
+body #navbar .container .navbar_cart .navbar-cart-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=style.css.map */
