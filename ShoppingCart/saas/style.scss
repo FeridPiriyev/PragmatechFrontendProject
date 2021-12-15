@@ -2,10 +2,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 /*p font*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+/*categories font*/
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@600&display=swap');
+
+*{
+    list-style: none;
+    text-decoration: none;
+}
 
 body{
+    background-color: #f8f8f8;
     #navbar{
         .container{
+            display: flex;
             .navbar_brand{
                 padding: 3px 120px;
                 .name_brand_name{
@@ -30,21 +39,93 @@ body{
                 }
             }
             .navbar_cart{
+                padding-left: 55%;
+                display: flex;
+                margin: 15px 0;
                 .navbar-cart-number{
-                    h2{
-
-                    }
+                    padding: 16px 0;
                 }
                 .navbar-cart-list{
                     display: flex;
-                    .navbar-cart-list_cart-icon{
-                        i{
-
-                        }
+                    margin: 15px 0;
+                    .navbar-cart-list_cart-img{  
+                        padding-left: 6px;  
+                        img{
+                            width: 50px;
+                            height: 60px;
+                        }               
                     }
                     .navbar-cart-list_arrow-icon{
-                        i{
+                        padding: 20px 0;
+                    }
+                }
+            }
+        }
+    }
 
+    #menu{
+        .container{
+            .menu_categories{
+                ul{
+                    list-style: none;
+                    display: flex;
+                    padding: 30px 350px;
+                    li{
+                        padding-left: 30px;
+                        color: #212529;
+                        font-size: 15px;
+                        font-family: 'Readex Pro', sans-serif;
+                    }
+                }
+            }
+            .menu_categories-item{
+                .menu_categories-item-top{
+                    padding-left: 100px;
+                    display: flex;
+                    ul{
+                        height: 300px;
+                        width: 240px;
+                        border: 1px solid black;
+                        background-color: #fff; 
+                        li{
+                            padding: 30px 20px;
+                            img{
+                                height: 170px;
+                                width: 150px;
+                                
+                            }
+                        }
+                        .menu_categories-item-top-price{
+                            h2{
+                                color: #da0909;
+                                font-size: 20px;
+                                font-family: 'Readex Pro', sans-serif;
+                            }
+                        }
+                    }
+                }
+                .menu_categories-item-bottom{
+                    display: flex;
+                    padding-left: 100px;
+                    ul{
+                        height: 350px;
+                        width: 240px;
+                        border: 1px solid black;
+                        background-color: #fff; 
+                        li{
+                            padding: 40px 20px;
+                            img{
+                                height: 170px;
+                                width: 150px;
+                            }
+                        }
+                        .menu_categories-item-bottom-price{
+                            padding: 30px 0;
+                            h2{
+                                color: #da0909;
+                                font-size: 20px;
+                                font-family: 'Readex Pro', sans-serif;
+                            }
                         }
                     }
                 }
