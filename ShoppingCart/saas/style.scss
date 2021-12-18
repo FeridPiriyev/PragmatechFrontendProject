@@ -95,13 +95,17 @@ body{
                                 
                             }
                         }
-                        .menu_categories-item-top-price{
-                            h2{
-                                color: #da0909;
-                                font-size: 20px;
-                                font-family: 'Readex Pro', sans-serif;
+                        .menu_categories-item-top-info{
+                            display: flex;
+                            .menu_categories-item-top-price{
+                                h2{
+                                    color: #da0909;
+                                    font-size: 20px;
+                                    font-family: 'Readex Pro', sans-serif;
+                                }
                             }
                         }
+                        
                     }
                 }
                 .menu_categories-item-bottom{
@@ -119,15 +123,59 @@ body{
                                 width: 150px;
                             }
                         }
-                        .menu_categories-item-bottom-price{
-                            padding: 30px 0;
-                            h2{
-                                color: #da0909;
-                                font-size: 20px;
-                                font-family: 'Readex Pro', sans-serif;
+                        .menu_categories-item-bottom-info{
+                            display: flex;
+                            .menu_categories-item-bottom-price{
+                                padding: 30px 0;
+                                h2{
+                                    color: #da0909;
+                                    font-size: 20px;
+                                    font-family: 'Readex Pro', sans-serif;
+                                }
+                            }
+                            .menu_categories-item-bottom-cart{
+                                .menu_categories-item-bottom-cart-icon{
+                                    display: flex;
+                                }
                             }
                         }
                     }
+                }
+            }
+        }
+    }
+    #carriage{
+        background-color: #f1f1f1;
+        .container{
+            padding: 100px 0;
+            .carriage-delivery{
+                display: flex;
+            }
+            .carriage-guaranteed{
+                display: flex;
+
+            }
+            .carriage-safe{
+                display: flex;
+
+            }
+        }
+    }
+    #footer{
+        background-color: #f8f8f8;
+        .container{
+            display: flex;
+            .footer-copy{
+                padding-left: 80px;
+                p{
+                    font-family: 'Roboto', sans-serif;
+                }
+            }
+            .footer-bank{
+                img{
+                    height: 50px;
+                    width: 300px;
+                    
                 }
             }
         }
