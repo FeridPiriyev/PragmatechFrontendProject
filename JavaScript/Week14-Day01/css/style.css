@@ -1,0 +1,26 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 30px;
+}
+
+.news {
+    border: 1px solid black;
+}
+
+.authors {
+    border: 1px solid red;
+}
+
+.news-item {
+    padding: 15px;
+    border: 1px solid gray;
+}
+
+.author {
+    padding: 15px;
+    border: 1px solid gray;
+}
