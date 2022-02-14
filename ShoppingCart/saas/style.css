@@ -223,6 +223,7 @@ body #menu .container .menu_categories-item .menu_categories-item-bottom ul .men
 
 body #carriage {
   background-color: #f1f1f1;
+  margin: 60px 0;
 }
 
 body #carriage .container {
@@ -300,7 +301,7 @@ body #carriage .container .carriege-safe .carriege-safe_img {
 
 body #carriage .container .carriege-safe .carriege-safe_img img {
   width: 60px;
-  height: 40px;
+  height: 50px;
   margin-right: 10px;
 }
 
@@ -340,19 +341,5 @@ body #footer .container .footer-bank {
 body #footer .container .footer-bank img {
   height: 40px;
   width: 150px;
-}
-
-body ul li.active {
-  width: 50%;
-  padding: 2px;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
-
-body ul li.delete {
-  width: 0%;
-  padding: 0;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,31 @@
+[{
+    "id": 1,
+    "name": "Phone",
+    "detail": "Mehsul haqqinda detalli melumat 1",
+    "price": 1200,
+    "img": "images/book.png"
+}, {
+    "id": 2,
+    "name": "TV",
+    "detail": "Mehsul haqqinda detalli melumat 2",
+    "price": 2000,
+    "img": ""
+}, {
+    "id": 3,
+    "name": "Notebook",
+    "detail": "Mehsul haqqinda detalli melumat 3",
+    "price": 1500,
+    "img": "images/choco_bar.png"
+}, {
+    "id": 4,
+    "name": "Desktop Pc",
+    "detail": "Mehsul haqqinda detalli melumat 4",
+    "price": 2500,
+    "img": "images/ferrero.png"
+}, {
+    "id": 5,
+    "name": "Desktop Pc",
+    "detail": "Mehsul haqqinda detalli melumat 4",
+    "price": 2500,
+    "img": "images/ferrero.png"
+}]

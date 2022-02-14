@@ -30,8 +30,6 @@ const Category = ({ categoryTitle }) => {
         <div className="grid grid-cols-3 gap-5">
             {news.map((element,i)=> <CategoryNews {...element} />)}
         </div>
-
-
     </div>
 }
 
