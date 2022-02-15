@@ -11,8 +11,7 @@ export default function Arrow() {
             navigate({
                 pathname: "/"
             })
-        }}>Kecid</button>
+        }}>Kec</button>
 
     </div>;
 }
-
