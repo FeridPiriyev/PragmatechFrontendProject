@@ -31,7 +31,7 @@ function App(){
         setPassword(e.target.value)
       }} />
       
-      <button className="bg-red">Click me</button>
+      <button className="bg-red">Click Me</button>
       <h1>{text}</h1>
     </div>
   );
