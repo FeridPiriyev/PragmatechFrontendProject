@@ -13,7 +13,7 @@ export default function Projects() {
                     <FaUserTie style={{ color: "#ffcd00", height: "60px", width: "100px", }} />
                     <div className="info" style={{ width: "40%" }}>
                         <div className="title">
-                            <h1 style={{ color: "#000", fontSize: "24px" }}>General Constructing</h1>
+                            <h1 style={{ color: "#000", fontSize: "23px" }}>General Constructing</h1>
                         </div>
                         <div className="subtitle" style={{ width: "100%" }}>
                             <p style={{ color: "gray", fontSize: "16px" }}>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies</p>
