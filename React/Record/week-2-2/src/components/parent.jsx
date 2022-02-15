@@ -8,7 +8,7 @@ const Parent = () => {
     const [data, setData] = useState([
         { name: "Ferid" },
         { name: "Piriyev" },
-        { name: "nebi" }
+        { name: "kenan" }
     ])
 
 
