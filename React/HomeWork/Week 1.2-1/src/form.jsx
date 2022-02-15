@@ -17,7 +17,7 @@ function App(){
         setText("Hesab Hack Olundu")
       }
       else{
-        setText("sehvdir")
+        setText("yanlisdir")
       }
     }
   },[username,password])
