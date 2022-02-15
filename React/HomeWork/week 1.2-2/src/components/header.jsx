@@ -10,7 +10,7 @@ const Header = () => {
         image: "https://ichef.bbc.co.uk/wwhp/304/cpsprodpb/141E8/production/_122880428_trumpin2020reuters.jpg",
         title: "Its president bristles at suggestions a minor Russian attack may bring a weaker Western response.",
         subtitle: "Trump's alleged fraud detailed in new court papers",
-        category: "US"
+        category: "USA"
     }
 
 
