@@ -9,11 +9,11 @@ function App(){
   
   useEffect(() =>{
     if(username || password){
-      if(username==="Ferid"&& password!=="12345"){
+      if(username==="Ferid"&& password!=="123456"){
         setText("ad duz parol sehvdir")
-      }else if(username!=="Ferid"&& password==="12345"){
+      }else if(username!=="Ferid"&& password==="123456"){
         setText("ad yanlis parol dogrudur")
-      }else if(username==="Ferid"&& password==="12345"){
+      }else if(username==="Ferid"&& password==="123456"){
         setText("hacked")
       }
       else{
