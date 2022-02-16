@@ -1,7 +1,9 @@
-## PragmatechFrontEndProject
+# PragmatechFrontEndProject
 
 - Tədrisə başladığım tarix:19sentyabr
 
-# Bitirdih]yim işlər:
+## Bitirdiyim işlər:
 
-[Text Change](https://github.com/FeridPiriyev/Text-Change)
+### Text Change:
+[kodlar](https://github.com/FeridPiriyev/Text-Change)
+
