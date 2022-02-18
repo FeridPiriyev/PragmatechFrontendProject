@@ -1,6 +1,6 @@
 # PragmatechFrontEndProject
 
-- Tədrisə başladığım tarix:19sentyabr
+- Tədrisə başladığım tarix: 19sentyabr
 
 ## Bitirdiyim işlər:
 
